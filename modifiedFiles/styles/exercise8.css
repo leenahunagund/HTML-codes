@@ -1,0 +1,97 @@
+.namebox{
+    display:block;
+    margin-bottom:5px;
+}
+.emailbox{
+    display:block;
+    margin-bottom:100px;
+}
+.ques{
+    width:200px;
+    display:inline-block;
+    vertical-align: middle;
+    margin-bottom:30px;
+}
+.google{
+    display:block;
+    margin-left:150px;
+    margin-bottom:10px;
+    width:200px;
+}
+.search{
+    display: block;
+    width:500px;
+    font-size:16px;
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-left:16px;
+    border-radius:30px;
+    border:none;
+    box-shadow:0 1px 6px rgba(0,0,0, 0.2);
+    margin-bottom: 100px;
+}
+.first,.last{
+    margin-top: 50px;
+    width:100px;
+    padding:9px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(157, 157, 157);
+}
+.email{
+    display:block;
+    margin-top:5px;
+    width: 225px;
+    border-radius: 8px;
+    padding:9px;
+    border-width: 1px;
+    border-style:solid;
+    border-color:rgb(157, 157, 157);
+}
+.signup{
+    width:245px;
+    margin-top:5px;
+    border-radius: 8px;
+    padding:9px;
+    border:none;
+    background-color: rgb(37, 127, 205);
+    color:white;
+    font-weight: bold;
+    font-size:15px;
+}
+.uber{
+    margin-top:100px;
+    font-family: Arial;
+    font-size:30px;
+    font-weight:500;
+    margin-bottom:15px;
+}
+.loc{
+    display:block;
+    margin-bottom:5px;
+    width:300px;
+    padding:8px;
+    background-color: rgb(235, 232, 232);
+    border:none;
+}
+.dest{
+    display: block;
+    width:300px;
+    padding:8px;
+    background-color:  rgb(235, 232, 232);
+    border:none;
+    margin-bottom:20px;
+}
+.req{
+    background-color: black;
+    color:white;
+    padding:8px;
+    width:120px;
+    margin-right:10px;
+}
+.sch{
+    width:150px;
+    padding:8px;
+    border:none;
+}
