@@ -1,0 +1,52 @@
+p{
+    line-height:7px;
+    vertical-align:top;
+    font-family:Arial;
+    font-size: 15px;
+}
+.catimg{
+    width:65px;
+    height:65px;
+    display:inline-block;
+    vertical-align:top;
+}
+.Img{
+    width:65px;
+    height:65px;
+    object-fit:cover;
+    border-radius:50px;
+    vertical-align: top;
+}
+.info{
+    display: inline-block;
+    margin-top:0px;
+    margin-left: 15px;
+    width:180px;
+}
+.name{
+    margin-top:8px;
+    font-weight:bold;
+}
+.follow{
+    vertical-align: 20px;
+    display:inline-block;
+}
+.thecat,.popular{
+    color:rgb(160, 159, 159);
+}
+.popular{
+    font-size:12px;
+}
+.followb{
+    background-color: rgb(50, 132, 241);
+    border:none;
+    padding-top:7px;
+    padding-bottom:7px;
+    width:70px;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+.eachcat{
+    margin-bottom:12px;
+}
