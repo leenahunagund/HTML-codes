@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>13f twitter style</title>
+        <style>
+            div{
+                font-family:Arial, Helvetica, sans-serif;
+            }
+            .box1{
+                width:420px;
+                display: flex;
+                flex-direction: row;
+                margin-top:10px;
+                margin-left:10px;
+            }
+            .image-box{
+                margin-right:10px;
+            }
+            .image{
+                width:60px;
+                height:60px;
+                object-fit: cover;
+                border-radius: 30px;
+            }
+            .box2{
+                flex:1;
+            }
+            .supersimple-box{
+                display: flex;
+                flex-direction: row;
+                margin-bottom:5px;
+            }
+            .textbox1{
+                font-weight: bold;
+                margin-right:5px;
+            }
+            .textbox2{
+                color:rgb(111, 111, 111);
+            }
+            .desc{
+                margin-bottom:15px;
+                line-height: 20px;
+            }
+            .box3{
+                border-style: solid;
+                border-width:1px;
+                display:flex;
+                border-radius: 15px;
+                border-color:rgb(200,200,200);
+                flex-direction: row;
+                align-items: center;
+                overflow: hidden;
+
+            }
+            .greybox{
+                background-color:rgb(183, 182, 182);
+                width:100px;
+                height:100px;
+                margin-right:10px;
+            }
+            .linkbox{
+                flex:1;
+            }
+            .youtube{
+                color:rgb(111,111,111);
+                margin-bottom:3px;
+            }
+            .youtube-info{
+                line-height: 22px;;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box1">
+            <div class="image-box"><img src="https://static.vecteezy.com/system/resources/thumbnails/022/963/918/small_2x/ai-generative-cute-cat-isolated-on-solid-background-photo.jpg" class="image"></div>
+            <div class="box2">
+                <div class="supersimple-box">
+                    <div class="textbox1"> supersimple.dev</div>
+                    <div class="textbox2">@SuperSimpleDev</div>
+                </div>
+                <div class="desc">What is backend web development? A complete overview. New video is up!</div>
+                <div class="box3">
+                    <div class="greybox"></div>
+                    <div class="linkbox">
+                        <div class="youtube">youtube.com</div>
+                        <div class="youtube-info"> Backend web development - a complete overview (2021)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
