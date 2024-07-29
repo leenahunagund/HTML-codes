@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Challenge mfs</title>
+        <style>
+            .rsbr{
+                position:fixed;
+                color:white;
+                background-color: green;
+                width:100px;
+                right:0;
+                bottom:0;
+                top:0;
+            }
+            .all{
+                position:fixed;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                background-color: rgba(0,0,0,0.5);
+                color:white;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .modal{
+                background-color: white;
+                width:300px;
+                padding:15px;
+                border-radius: 5px;
+                color:black;
+            }
+            .modal-title{
+                font-family: Arial;
+                font-weight: bold;
+                font-size:24px;
+                margin-bottom:12px;
+            }
+            .modal-content{
+                font-family: Arial;
+                margin-bottom:12px;
+            }
+        </style>
+    </head>
+    <body style="height:3000px;">
+        <div class="rsbr">
+            right sidebar
+        </div>
+        <div class="all">
+            <div class="modal">
+                <div class="modal-title">
+                    Modal Title
+                </div>
+                <div class="modal-content">
+                    This is a modal
+                </div>
+                <button>
+                    Close
+                </button>
+            </div>
+        </div>
+        
+    </body>
+</html>
